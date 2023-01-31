@@ -1,0 +1,7 @@
+lineage,country,year_first,year_last,n_seqs,parent,colour
+Asian SEA4_A1.1.1,Philippines,2012,2016,23,Asian SEA4_A1.1,#DE2D26
+Asian SEA4_A1.1.2,Philippines,2013,2019,1,Asian SEA4_A1.1,#F27058
+Asian SEA4_A1.2,Philippines,2012,2019,6,Asian SEA4_A1,#FCAC92
+Asian SEA4_B1,Philippines,2021,2022,15,Asian SEA4_A1.1.1,#FEE0D2
+Asian SEA4_A1.1,Philippines,,,0,Asian SEA4_A1,
+Asian SEA4_A1,Philippines,,,0,Asian_A1,
