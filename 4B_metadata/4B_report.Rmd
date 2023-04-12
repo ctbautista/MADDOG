@@ -124,7 +124,7 @@ ggplot(metadata, aes(x = lineage, fill = species)) +
 $~$
 $~$
 
-Several well-defined RABV clades circulate globally, within two major phylogenetic groups; bat-related and dog-related. The dog-related group is split into 6 different clades according to Troupin et al. (2016). These clades are: Africa 2, Africa 3, Cosmopolitan, Arctic, Asian and Indian. The majority of Nigerian sequences fall within the Africa 2 clade.
+Several well-defined RABV clades circulate globally, within two major phylogenetic groups; bat-related and dog-related. The dog-related group is split into 6 different clades according to Troupin et al. (2016). These clades are: Africa 2, Africa 3, Cosmopolitan, Arctic, Asian and Indian. The majority of Philippine sequences fall within the Asian clade.
 
 
 $~$

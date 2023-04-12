@@ -1,8 +1,8 @@
 rm(list=ls())
 
 library(ggplot2)
-seq<-seqinr::read.alignment("/Users/criseldabautista/Documents/GitHub/MADDOG/Ph_designation/Ph_designation.fasta", format = "fasta")
-metadata<-read.csv("/Users/criseldabautista/Documents/GitHub/MADDOG/Ph_designation/Ph_designation_metadata.csv")
+seq<-seqinr::read.alignment("/Users/criseldabautista/Documents/GitHub/MADDOG_CTB/Ph_designation/Ph_designation.fasta", format = "fasta")
+metadata<-read.csv("/Users/criseldabautista/Documents/GitHub/MADDOG_CTB/Ph_designation/Ph_designation_metadata.csv")
 
 
 
