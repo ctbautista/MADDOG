@@ -1,4 +1,4 @@
-﻿ID,year,lineage,Municipality,Province,latitude,longitude,species,date
+﻿ID,year,lineage,place,Province,latitude,longitude,species,date
 4A-22-104,2022,Asian SEA4_A1.2,Lipa,Batangas ,13.94086577,121.1746864,Canis familiaris,25/01/2022
 4A-22-171,2022,Asian SEA4_B1,General Trias,Cavite,14.32966619,120.8999068,Canis familiaris,06/02/2022
 4A-22-203,2022,Asian SEA4_A1.2.1,Lucena City,Quezon,13.93834754,121.6153593,Canis familiaris,11/02/2022
