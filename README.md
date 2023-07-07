@@ -51,7 +51,7 @@ Then:
 
 `bash Miniconda3.sh`
 
-You can then remove the installer by:
+You can then remove the installer by: 
 
 `rm Miniconda3.sh`
 

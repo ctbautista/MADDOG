@@ -1,0 +1,17 @@
+lineage,country,year_first,year_last,n_seqs,parent,colour
+Asian SEA4_A1,"c(""Japan"", ""Philippines"")",1994,2020,32,Asian_A1,#918BC2
+Asian SEA4_A1.1,,,,0,Asian SEA4_A1,
+Asian SEA4_A1.1.2,Philippines,2013,2019,74,Asian SEA4_A1.1,#756BB1
+Asian SEA4_A1.2,Philippines,2012,2019,95,Asian SEA4_A1,#837BB9
+Asian SEA4_A1.2.1,"c(""Japan"", ""Philippines"")",1994,2020,5,Asian SEA4_A1.2,#D0D0E6
+Asian SEA4_A1.3,Philippines,1998,2019,8,Asian SEA4_A1,#ADACD3
+Asian SEA4_A1.3.1,Philippines,1994,2017,13,Asian SEA4_A1.3,#C6C6E1
+Asian SEA4_B1,Philippines,1994,2023,9,Asian SEA4_A1.2.1,#DAD9EB
+Asian SEA4_B1.1,Philippines,2006,2022,6,Asian SEA4_B1,#EFEDF5
+Asian SEA4_B1.1.1,Philippines,2007,2022,11,Asian SEA4_B1.1,#9F9CCA
+Asian SEA4_C1,Philippines,2013,2020,13,Asian SEA4_B1.1.1,#BCBDDC
+Asian SEA4_D1,"c(""Japan"", ""Philippines"")",1998,2015,14,Asian SEA4_A1.1.2,#E4E3F0
+Asian,,,,0,,
+Asian_A1,,,,0,Asian,
+Asian_A1.1,,,,0,Asian_A1,
+Asian_A1.1.1,China,1994,2015,1,Asian_A1.1,#DE2D26
