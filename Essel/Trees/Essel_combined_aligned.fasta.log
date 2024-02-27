@@ -1,0 +1,446 @@
+IQ-TREE multicore version 2.0.3 for Mac OS X 64-bit built Dec 19 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Kathryns-MBP (AVX512, FMA3, 32 GB RAM)
+Command: iqtree -s Essel/Alignment/Essel_combined_aligned.fasta -B 1000 -m GTR+F+R6 -nt AUTO
+Seed:    665804 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jul 11 22:56:46 2023
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file Essel/Alignment/Essel_combined_aligned.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 14 sites contain only gaps or ambiguous characters.
+Alignment has 283 sequences with 11941 columns, 4100 distinct patterns
+2918 parsimony-informative, 797 singleton sites, 8226 constant sites
+                Gap/Ambiguity  Composition  p-value
+   1  AB573762         88.67%    passed     74.34%
+   2  AB573763         88.67%    passed     67.73%
+   3  EU086200         88.67%    passed     75.26%
+   4  EU086201         88.67%    passed     81.77%
+   5  EU086202         88.67%    passed     71.55%
+   6  EU086203         88.67%    passed     75.96%
+   7  EU086204         88.67%    passed     64.82%
+   8  EU086205         88.67%    passed     73.77%
+   9  KX148259          1.21%    passed     99.47%
+  10  KX148260          1.21%    passed     98.95%
+  11  KX148261          1.21%    passed     99.75%
+  12  KX148262          1.21%    passed     99.35%
+  13  KX148263          1.21%    passed     99.68%
+  14  LC550018         88.67%    passed     75.62%
+  15  LC550019         88.67%    passed     74.76%
+  16  LC550020         88.67%    passed     74.76%
+  17  LC550021         88.67%    passed     74.76%
+  18  LC550022         88.67%    passed     70.64%
+  19  LC550023         88.67%    passed     69.41%
+  20  LC550024         88.67%    passed     75.62%
+  21  LC550025         88.67%    passed     72.77%
+  22  LC550026         88.67%    passed     72.93%
+  23  LC550027         88.67%    passed     75.62%
+  24  LC571945          1.21%    passed     99.81%
+  25  LC571946          1.21%    passed     99.85%
+  26  MN726836          1.27%    passed     99.83%
+  27  MN726837          2.80%    passed     99.98%
+  28  MN726839          1.23%    passed     99.87%
+  29  MN726840          4.82%    passed     93.99%
+  30  MN726841          3.15%    passed     98.37%
+  31  MN726842          2.79%    passed     99.51%
+  32  MN726843          3.52%    passed     99.41%
+  33  MN726845          4.55%    passed     99.21%
+  34  MN726848          4.66%    passed     94.04%
+  35  MN726850         10.64%    passed     70.18%
+  36  MN726852          2.79%    passed     99.64%
+  37  MN726854          2.20%    passed     99.84%
+  38  MN726855          4.30%    passed     96.80%
+  39  MN726856          7.87%    passed     91.91%
+  40  MN726858          4.44%    passed     96.06%
+  41  MN726860          2.81%    passed     98.73%
+  42  MN726861          1.69%    passed     99.77%
+  43  MN726862          2.85%    passed     99.84%
+  44  MN726866          2.08%    passed     99.76%
+  45  MN726870         10.43%    passed     97.43%
+  46  MN726873          1.24%    passed     99.63%
+  47  MN726874          6.16%    passed     94.89%
+  48  MN726875          2.81%    passed     99.95%
+  49  MN726876          2.80%    passed     99.45%
+  50  MN726879          1.46%    passed     99.17%
+  51  MN726880          2.79%    passed     99.45%
+  52  MN726881          4.64%    passed     94.66%
+  53  MN857167          1.21%    passed     97.42%
+  54  MN857168          1.21%    passed     98.16%
+  55  MN857169          1.21%    passed     99.69%
+  56  MN857170          1.22%    passed     97.80%
+  57  MN857171          1.21%    passed     98.64%
+  58  KF620487          0.18%    passed     80.17%
+  59  KF620488          0.24%    passed     94.44%
+  60  KF620489          0.22%    passed     86.61%
+  61  KP860149         88.67%    passed     50.96%
+  62  KP860153         88.67%    passed     54.85%
+  63  98-134           16.65%    passed     88.96%
+  64  98-206           21.10%    passed     82.65%
+  65  98-285           11.57%    passed     85.18%
+  66  98-286            9.19%    passed     95.18%
+  67  153               2.81%    passed     99.29%
+  68  4A-22-104         2.86%    passed     97.92%
+  69  4A-22-171         2.81%    passed     99.95%
+  70  4A-22-203         5.62%    passed     99.30%
+  71  4A-22-40          1.23%    passed     99.46%
+  72  4A-22-98          1.17%    passed     99.90%
+  73  4B-21-126         1.21%    passed     99.93%
+  74  4B-21-29          1.18%    passed     99.84%
+  75  4B-21-310         2.86%    passed     99.07%
+  76  4B-21-35          2.84%    passed     97.81%
+  77  4B-21-412         1.11%    passed     99.86%
+  78  4B-21-421         1.18%    passed     99.93%
+  79  4B-21-423         2.88%    passed    100.00%
+  80  4B-21-528         1.10%    passed     99.83%
+  81  4B-21622          1.27%    passed     99.88%
+  82  4B-22-114         1.17%    passed     99.91%
+  83  4B-22-13          2.96%    passed     99.96%
+  84  4B-22-15          1.11%    passed     99.84%
+  85  4B-22-16          3.10%    passed     99.79%
+  86  4B-22-17          2.91%    passed     99.94%
+  87  4B-22-20          3.11%    passed     99.86%
+  88  4B-22-21          3.22%    passed     99.98%
+  89  4B-22-28          2.80%    passed    100.00%
+  90  4B-22-30          3.93%    passed     99.78%
+  91  4B-22-31          2.92%    passed     99.98%
+  92  4B-22-35          2.91%    passed     99.95%
+  93  4B-22-37          2.85%    passed     98.96%
+  94  4B-22-39          2.82%    passed     99.00%
+  95  4B-22-40          3.01%    passed     99.71%
+  96  4B-22-41          5.51%    passed     98.11%
+  97  4B-22-42          2.76%    passed     98.94%
+  98  4B-22-44          2.82%    passed     99.11%
+  99  4B-22-45          2.86%    passed     99.21%
+ 100  4B-23-01          2.79%    passed     98.90%
+ 101  4B-23-02          2.81%    passed     98.89%
+ 102  4B-23-03          1.05%    passed     99.54%
+ 103  4B-23-04          1.07%    passed     99.59%
+ 104  4B-23-05          2.88%    passed     99.19%
+ 105  4B-23-06          2.81%    passed     98.46%
+ 106  4B-23-07          2.81%    passed     99.02%
+ 107  4B-23-11          2.81%    passed     99.12%
+ 108  4B-23-12          2.84%    passed     99.11%
+ 109  4B-23-13          2.80%    passed     98.70%
+ 110  4B-23-15          2.86%    passed     98.81%
+ 111  4B-23-16          2.82%    passed     98.88%
+ 112  4B-23-17          2.84%    passed     98.52%
+ 113  4B-23-19          2.83%    passed     98.59%
+ 114  4B-2422           2.82%    passed     99.99%
+ 115  4B-2922HM         1.23%    passed     99.73%
+ 116  4B-2922JG         1.26%    passed     99.02%
+ 117  CAR-22-018        2.91%    passed     99.64%
+ 118  CAR-22-020        1.12%    passed     99.54%
+ 119  H-23-011Sa_11    74.35%    failed      1.75%
+ 120  H-23-011Sk_12    11.89%    passed     99.46%
+ 121  R1-21-148         2.83%    passed     98.45%
+ 122  R10-688           3.12%    passed     94.25%
+ 123  R10-711           5.04%    passed     99.71%
+ 124  R10-714           3.20%    passed     98.14%
+ 125  R10-824           3.82%    passed     98.85%
+ 126  R10-856           5.45%    passed     98.74%
+ 127  R10-907           3.13%    passed     97.14%
+ 128  R10-920           3.01%    passed     97.34%
+ 129  R10-989           4.98%    passed     99.80%
+ 130  R10-990           3.10%    passed     99.69%
+ 131  R11-21-61         1.11%    passed     94.66%
+ 132  R11-21-63         2.86%    passed     99.94%
+ 133  R11-22-002        1.69%    passed     97.17%
+ 134  R2-081            2.86%    passed     99.83%
+ 135  R2-22-5302        2.92%    passed     99.30%
+ 136  R2-22-5814        9.31%    passed     97.42%
+ 137  R2-22-84711       5.58%    passed     99.74%
+ 138  R2-22-8924        2.86%    passed     99.63%
+ 139  R3-731            2.81%    passed     98.84%
+ 140  R5-21-115         1.15%    passed     99.09%
+ 141  R5-21-119         1.10%    passed     99.89%
+ 142  R5-21-128         1.12%    passed     98.39%
+ 143  R5-21-132         1.11%    passed     99.79%
+ 144  R5-21-136         2.77%    passed     99.95%
+ 145  R5-21-140         1.11%    passed     99.80%
+ 146  R5-22-008         2.81%    passed     99.71%
+ 147  R5-22-09          1.09%    passed     98.68%
+ 148  R6-21-4375        3.01%    passed     95.26%
+ 149  R6-21-4511        2.85%    passed     98.57%
+ 150  R6-21-4600        2.90%    passed     95.24%
+ 151  R6-4342           3.29%    passed     92.77%
+ 152  R6-4568           3.04%    passed     97.37%
+ 153  R7-21-161         4.85%    passed     87.53%
+ 154  R9-010            3.00%    passed     99.17%
+ 155  R9-074            2.91%    passed     98.55%
+ 156  R9-089            5.37%    passed     98.80%
+ 157  R9-105            1.66%    passed     98.20%
+ 158  RADDL1-16-153     2.80%    passed     99.80%
+ 159  RADDL1-16-166     4.82%    passed     99.78%
+ 160  RADDL3-1045       2.81%    passed     99.83%
+ 161  RADDL3-15-172     2.85%    passed     98.57%
+ 162  RADDL3-16-1008    2.95%    passed     99.88%
+ 163  RADDL3-16-468     2.85%    passed     97.91%
+ 164  RADDL3-16-521     2.83%    passed     96.91%
+ 165  RADDL3-16-627     4.75%    passed     99.00%
+ 166  RADDL3-845        2.88%    passed     96.95%
+ 167  RADDL5-005        1.11%    passed     99.91%
+ 168  Z-04-664         10.17%    passed     98.98%
+ 169  Z-05-102          4.87%    passed     99.84%
+ 170  Z-05-191          6.86%    passed     99.23%
+ 171  Z-05-557          3.27%    passed     99.97%
+ 172  Z-05-96           4.93%    passed     99.81%
+ 173  Z-06-150          6.05%    passed     93.20%
+ 174  Z-06-295          2.76%    passed     99.93%
+ 175  Z-06-39           1.10%    passed     95.95%
+ 176  Z-07-07           2.81%    passed     99.99%
+ 177  Z-07-22           2.76%    passed     99.93%
+ 178  Z-07-222         13.06%    passed     92.16%
+ 179  Z-07-351          2.79%    passed     99.92%
+ 180  Z-07-366          6.77%    passed     99.29%
+ 181  Z-07-38           1.07%    passed     99.64%
+ 182  Z-07-387          2.80%    passed     99.78%
+ 183  Z-07-398          2.81%    passed     99.67%
+ 184  Z-07-403          2.82%    passed     99.97%
+ 185  Z-07-407          2.81%    passed     99.99%
+ 186  Z-08-351          7.38%    passed     97.32%
+ 187  Z-08-359          5.02%    passed     96.05%
+ 188  Z-09-94           2.77%    passed     99.95%
+ 189  Z-12-012          2.85%    passed     99.93%
+ 190  Z-12-029          2.80%    passed     99.85%
+ 191  Z-12-034         15.95%    passed     92.34%
+ 192  Z-12-060          2.85%    passed     98.71%
+ 193  Z-12-149          2.83%    passed     99.99%
+ 194  Z-12-208          2.88%    passed     99.23%
+ 195  Z-13-020          2.96%    passed     99.75%
+ 196  Z-13-032          1.56%    passed     99.72%
+ 197  Z-13-036          2.79%    passed     99.97%
+ 198  Z-13-037         17.56%    passed     71.39%
+ 199  Z-13-065          3.25%    passed     97.12%
+ 200  Z-13-066          1.10%    passed     99.64%
+ 201  Z-13-071          2.81%    passed     99.99%
+ 202  Z-13-073          3.10%    passed     99.96%
+ 203  Z-13-081          3.79%    passed     97.86%
+ 204  Z-13-086          2.78%    passed     99.83%
+ 205  Z-13-089          1.12%    passed     99.20%
+ 206  Z-13-094          1.11%    passed     99.70%
+ 207  Z-13-096          1.11%    passed     99.95%
+ 208  Z-13-098          1.87%    passed     99.16%
+ 209  Z-13-134          2.85%    passed     99.78%
+ 210  Z-13-135          2.81%    passed     99.99%
+ 211  Z-13-161          2.80%    passed     99.67%
+ 212  Z-13-171          1.37%    passed     99.67%
+ 213  Z-13-184          1.42%    passed     99.54%
+ 214  Z-13-204          2.20%    passed     99.88%
+ 215  Z-13-216          1.54%    passed     99.79%
+ 216  Z-13-234          1.42%    passed     98.89%
+ 217  Z-13-259          2.79%    passed     99.96%
+ 218  Z-14-023          2.89%    passed     99.11%
+ 219  Z-14-033          2.86%    passed     98.69%
+ 220  Z-14-05           1.07%    passed     99.59%
+ 221  Z-14-058          4.53%    passed     95.81%
+ 222  Z-14-098          2.89%    passed     99.81%
+ 223  Z-14-101          5.54%    passed     97.43%
+ 224  Z-14-106          7.48%    passed     99.47%
+ 225  Z-14-126          2.78%    passed     99.84%
+ 226  Z-14-136          2.92%    passed     97.45%
+ 227  Z-14-142          2.78%    passed     99.96%
+ 228  Z-14-182          2.82%    passed     98.74%
+ 229  Z-14-243          1.42%    passed     98.73%
+ 230  Z-15-001          1.11%    passed     99.54%
+ 231  Z-15-009          5.64%    passed     98.42%
+ 232  Z-15-163          2.77%    passed     99.97%
+ 233  Z-16-082          1.17%    passed     99.65%
+ 234  Z-16-150          2.87%    passed     97.84%
+ 235  Z-16-151          1.22%    passed     97.50%
+ 236  Z-16-196          3.04%    passed     99.95%
+ 237  Z-16-209          1.37%    passed     99.00%
+ 238  Z-16-210          1.13%    passed     99.73%
+ 239  Z-16-211          1.12%    passed     99.64%
+ 240  Z-17-046          1.06%    passed     99.32%
+ 241  Z-17-174          2.81%    passed     99.73%
+ 242  Z-17-177          1.09%    passed     99.02%
+ 243  Z-17-193          3.01%    passed     99.51%
+ 244  Z-17-200          2.81%    passed     98.67%
+ 245  Z-17-217          3.01%    passed     99.96%
+ 246  Z-17-221          4.71%    passed     99.54%
+ 247  Z-17-57           1.20%    passed     98.38%
+ 248  Z-18-001          2.81%    passed     99.98%
+ 249  Z-18-114          2.77%    passed     99.96%
+ 250  Z-18-159          2.82%    passed     98.45%
+ 251  Z-18-224          9.16%    passed     97.36%
+ 252  Z-18-251          2.77%    passed     99.82%
+ 253  Z-19-029          3.37%    passed     92.87%
+ 254  Z-19-123          9.67%    passed     99.71%
+ 255  Z-19-136          7.53%    passed     99.93%
+ 256  Z-19-88           2.79%    passed     98.42%
+ 257  Z-20-01           1.09%    passed     99.87%
+ 258  Z-20-110          2.80%    passed     96.95%
+ 259  Z-20-24           2.79%    passed     96.34%
+ 260  Z-20-33           2.78%    passed     99.99%
+ 261  Z-20-51           2.81%    passed     98.38%
+ 262  Z-22-103          2.81%    passed     99.20%
+ 263  Z-22-119          2.93%    passed     98.82%
+ 264  Z-22-121          9.96%    passed     99.51%
+ 265  Z-23-01           2.79%    passed     96.75%
+ 266  Z-23-01Sa         4.70%    passed     98.41%
+ 267  Z-98-1061         3.54%    passed     99.31%
+ 268  Z-98-134         16.69%    passed     91.68%
+ 269  Z-98-206         21.26%    passed     83.37%
+ 270  Z-98-285          6.20%    passed     96.43%
+ 271  Z-98-286          7.86%    passed     95.54%
+ 272  Z-98-335         20.63%    passed     79.40%
+ 273  Z-98-433          2.82%    passed     99.90%
+ 274  Z-98-454          3.36%    passed     99.70%
+ 275  Z-98-515          2.88%    passed     99.96%
+ 276  Z-98-616          2.91%    passed     99.89%
+ 277  Z-98-667         16.02%    passed     79.16%
+ 278  Z-98-712         16.05%    passed     88.50%
+ 279  Z-98-718          8.75%    passed     85.57%
+ 280  Z-98-780          7.90%    passed     98.74%
+ 281  Z-98-823         11.00%    passed     94.99%
+ 282  Z-98-838          9.14%    passed     99.48%
+ 283  Z-98-860          9.31%    passed     97.39%
+WARNING: 21 sequences contain more than 50% gaps/ambiguity
+****  TOTAL            10.00%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: LC550024 is identical to LC550018 but kept for subsequent analysis
+NOTE: LC550020 is identical to LC550019 but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: LC550027 (identical to LC550018) is ignored but added at the end
+NOTE: LC550021 (identical to LC550019) is ignored but added at the end
+Alignment was printed to Essel/Alignment/Essel_combined_aligned.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Essel/Alignment/Essel_combined_aligned.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.090 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 665804)...
+
+NOTE: 240 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+5 trees examined
+Threads: 1 / Time: 10.060 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -218350
+Threads: 2 / Time: 5.401 sec / Speedup: 1.863 / Efficiency: 93% / LogL: -218350
+Threads: 3 / Time: 3.968 sec / Speedup: 2.535 / Efficiency: 85% / LogL: -218350
+Threads: 4 / Time: 3.284 sec / Speedup: 3.063 / Efficiency: 77% / LogL: -218350
+Threads: 5 / Time: 4.094 sec / Speedup: 2.458 / Efficiency: 49% / LogL: -218350
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -73485.980
+2. Current log-likelihood: -67713.193
+3. Current log-likelihood: -67667.175
+4. Current log-likelihood: -67657.449
+5. Current log-likelihood: -67651.209
+6. Current log-likelihood: -67646.768
+7. Current log-likelihood: -67642.969
+8. Current log-likelihood: -67639.294
+9. Current log-likelihood: -67635.469
+10. Current log-likelihood: -67631.426
+11. Current log-likelihood: -67627.158
+12. Current log-likelihood: -67622.690
+13. Current log-likelihood: -67618.067
+14. Current log-likelihood: -67613.354
+15. Current log-likelihood: -67608.641
+16. Current log-likelihood: -67604.047
+17. Current log-likelihood: -67599.687
+18. Current log-likelihood: -67595.757
+19. Current log-likelihood: -67592.382
+20. Current log-likelihood: -67589.643
+21. Current log-likelihood: -67587.559
+22. Current log-likelihood: -67586.074
+23. Current log-likelihood: -67585.078
+24. Current log-likelihood: -67584.440
+25. Current log-likelihood: -67584.046
+26. Current log-likelihood: -67583.806
+27. Current log-likelihood: -67583.657
+Optimal log-likelihood: -67583.556
+Rate parameters:  A-C: 1.64317  A-G: 10.32314  A-T: 0.62388  C-G: 0.18880  C-T: 13.03634  G-T: 1.00000
+Base frequencies:  A: 0.283  C: 0.221  G: 0.235  T: 0.260
+Site proportion and rates:  (0.402,0.078) (0.116,0.252) (0.124,0.256) (0.087,0.279) (0.254,2.819) (0.018,9.283)
+Parameters optimization took 27 rounds (50.459 sec)
+Computing ML distances based on estimated model parameters... 4.763 sec
+Computing BIONJ tree...
+0.046 seconds
+Log-likelihood of BIONJ tree: -69416.356
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 11.112 second
+Computing log-likelihood of 98 initial trees ... 7.900 seconds
+Current best score: -67583.556
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -67572.932
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -67562.657
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -67562.329
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -67560.702
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -67559.125
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -67558.572
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -67558.068
+Iteration 10 / LogL: -67562.208 / Time: 0h:2m:17s
+Iteration 20 / LogL: -67560.801 / Time: 0h:2m:42s
+Finish initializing candidate tree set (20)
+Current best tree score: -67558.068 / CPU time: 83.321
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -67558.867 / Time: 0h:3m:10s (0h:8m:33s left)
+Iteration 40 / LogL: -67563.575 / Time: 0h:3m:42s (0h:6m:27s left)
+Iteration 50 / LogL: -67566.085 / Time: 0h:4m:11s (0h:4m:57s left)
+Log-likelihood cutoff on original alignment: -67624.305
+Iteration 60 / LogL: -67558.328 / Time: 0h:4m:40s (0h:3m:48s left)
+Iteration 70 / LogL: -67573.833 / Time: 0h:5m:7s (0h:2m:49s left)
+Iteration 80 / LogL: -67559.849 / Time: 0h:5m:34s (0h:1m:58s left)
+Iteration 90 / LogL: -67558.279 / Time: 0h:6m:2s (0h:1m:13s left)
+Iteration 100 / LogL: -67584.792 / Time: 0h:6m:29s (0h:0m:31s left)
+Log-likelihood cutoff on original alignment: -67624.191
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 109 ITERATIONS / Time: 0h:6m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -67558.068
+2. Current log-likelihood: -67558.052
+3. Current log-likelihood: -67558.036
+Optimal log-likelihood: -67558.028
+Rate parameters:  A-C: 1.64083  A-G: 10.32185  A-T: 0.62797  C-G: 0.18442  C-T: 13.04105  G-T: 1.00000
+Base frequencies:  A: 0.283  C: 0.221  G: 0.235  T: 0.260
+Site proportion and rates:  (0.412,0.077) (0.111,0.247) (0.119,0.251) (0.083,0.274) (0.258,2.805) (0.018,9.383)
+Parameters optimization took 3 rounds (4.040 sec)
+BEST SCORE FOUND : -67558.028
+Creating bootstrap support values...
+Split supports printed to NEXUS file Essel/Alignment/Essel_combined_aligned.fasta.splits.nex
+Total tree length: 0.789
+
+Total number of iterations: 109
+CPU time used for tree search: 1284.465 sec (0h:21m:24s)
+Wall-clock time used for tree search: 336.676 sec (0h:5m:36s)
+Total CPU time used: 1577.600 sec (0h:26m:17s)
+Total wall-clock time used: 421.127 sec (0h:7m:1s)
+
+Computing bootstrap consensus tree...
+Reading input file Essel/Alignment/Essel_combined_aligned.fasta.splits.nex...
+281 taxa and 1558 splits.
+Consensus tree written to Essel/Alignment/Essel_combined_aligned.fasta.contree
+Reading input trees file Essel/Alignment/Essel_combined_aligned.fasta.contree
+Log-likelihood of consensus tree: -67558.993
+
+Analysis results written to: 
+  IQ-TREE report:                Essel/Alignment/Essel_combined_aligned.fasta.iqtree
+  Maximum-likelihood tree:       Essel/Alignment/Essel_combined_aligned.fasta.treefile
+  Likelihood distances:          Essel/Alignment/Essel_combined_aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Essel/Alignment/Essel_combined_aligned.fasta.splits.nex
+  Consensus tree:                Essel/Alignment/Essel_combined_aligned.fasta.contree
+  Screen log file:               Essel/Alignment/Essel_combined_aligned.fasta.log
+
+Date and Time: Tue Jul 11 23:03:49 2023
