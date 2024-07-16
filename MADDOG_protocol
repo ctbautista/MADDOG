@@ -1,0 +1,19 @@
+﻿_Make a folder in MADDOG repository containing consensus sequences (fasta file) and metadata (csv file): Ph_designation
+Make a folder in MADDOG repository containing consensus sequences (fasta file): Ph_assignment
+Activate MADDOG: conda activate MADDOG
+cd to MADDOG: cd Documents/GitHub/MADDOG
+Lineage designation: sh designation.sh
+Type the name of folder you created on Step 1. : Ph_designation
+Lineage assignment: sh assignment.sh
+Type the name of folder you created on Step 2: Ph_assignment
+
+R to check metadata names and fasta file names:
+metadata<-read.csv(PATHTOMETADATA)
+alignment<-read.alignment(PATHTOFASTA, format = 'fasta')
+'%notin%'<-Negate('%in%')
+metadata$ID[which(metadata$ID %notin% alignment$nam)]
+alignment$nam[which(alignment$nam %notin% metadata$ID)]
+
+
+
+

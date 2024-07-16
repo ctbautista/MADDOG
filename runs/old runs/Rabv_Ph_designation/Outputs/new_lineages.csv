@@ -1,0 +1,5 @@
+"lineage","country","year_first","year_last","n_seqs","parent"
+"Asian SEA4_A1.2.1","Philippines","1994","2021",8,"Asian SEA4_A1.2"
+"Asian SEA4_B1","Philippines","2015","2021",8,"Asian SEA4_A1.2"
+"Asian SEA4_B1.1","Philippines","2012","2022",22,"Asian SEA4_B1"
+"Asian SEA4_B1.1.1","Philippines","2019","2019",10,"Asian SEA4_B1.1"
